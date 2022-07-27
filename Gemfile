@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.5'
+gem 'rails', '5.2.8.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.1'
@@ -16,7 +16,7 @@ gem 'coffee-rails', '~> 4.0.1'
 
 gem 'therubyracer', '~> 0.12'
 gem 'less-rails', '~> 2.3'
-gem 'twitter-bootstrap-rails', '~> 2.2'
+gem 'twitter-bootstrap-rails', '~> 2.2', '>= 2.2.8'
 gem 'gon', '~> 5.0.1'
 gem 'codemirror-rails', '~> 3.16'
 gem 'less-rails-fontawesome', '~> 0.4'
