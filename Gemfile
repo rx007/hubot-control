@@ -6,7 +6,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.5'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.1'
+gem 'sass-rails', '~> 4.0.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -15,13 +15,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.1'
 
 gem 'therubyracer', '~> 0.12'
-gem 'less-rails', '~> 2.3'
-gem 'twitter-bootstrap-rails', '~> 2.2'
-gem 'gon', '~> 5.0.1'
-gem 'codemirror-rails', '~> 3.16'
-gem 'less-rails-fontawesome', '~> 0.4'
+gem 'less-rails', '~> 2.6', '>= 2.6.0'
+gem 'twitter-bootstrap-rails', '~> 2.2', '>= 2.2.8'
+gem 'gon', '~> 5.0.4'
+gem 'codemirror-rails', '~> 3.24'
+gem 'less-rails-fontawesome', '~> 0.5', '>= 0.5.1'
 gem 'unicorn'
-gem "devise", "~> 3.2.0"
+gem "devise", "~> 3.2.4"
 gem 'git', '~> 1.2.6'
 
 # Use jquery as the JavaScript library
@@ -41,9 +41,9 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 2.99', '>= 2.99.0'
   gem 'rspec-mocks', '~> 2.0'
-  gem 'factory_girl_rails', '~> 4.0'
+  gem 'factory_girl_rails', '~> 4.5', '>= 4.5.0'
   gem 'coveralls', require: false
   gem 'pry-nav'
 end
