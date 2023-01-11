@@ -22,7 +22,7 @@ gem 'codemirror-rails', '~> 3.16'
 gem 'less-rails-fontawesome', '~> 0.4'
 gem 'unicorn'
 gem "devise", "~> 3.2.0"
-gem 'git', '~> 1.2.6'
+gem 'git', '~> 1.13.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
