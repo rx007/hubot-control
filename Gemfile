@@ -41,7 +41,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~> 2.0'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'rspec-mocks', '~> 2.0'
   gem 'factory_girl_rails', '~> 4.0'
   gem 'coveralls', require: false
